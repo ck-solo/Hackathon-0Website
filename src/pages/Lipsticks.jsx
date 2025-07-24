@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import ProductGrid from "@/components/ProductGrid"
-import { Button } from "@/components/ui/button"
-import { getProductsByCategory } from "@/data/products"
+import ProductGrid from "../components/ProductGrid"
+import { Button } from "../components/ui/button"
+import { getProductsByCategory } from "../data/products"
 
 const Lipsticks = () => {
   const lipsticks = getProductsByCategory("lipsticks")

@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import ProductGrid from "@/components/ProductGrid"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { getProductsByCategory } from "@/data/products"
+import ProductGrid from "../components/ProductGrid"
+import { Button } from "../components/ui/button"
+import { Badge } from "../components/ui/badge"
+import { getProductsByCategory } from "../data/products"
 import { Brush, MonitorSpeaker, ShoppingBag } from "lucide-react"
 
 const Accessories = () => {

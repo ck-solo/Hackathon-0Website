@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "baseUrl": ".",          // Sets the root for module resolution
+    "paths": {
+      "@/*": ["src/*"]      // Example alias: '@' points to the 'src' folder
+    }
+  },
+  "exclude": ["node_modules"]
+}

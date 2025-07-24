@@ -1,4 +1,5 @@
 @import "tailwindcss"; 
+ 
 @layer base {
   /**
    * Tailwind CSS theme
@@ -93,12 +94,11 @@
 }
 
 @layer base {
-  /* * { */
-  /* @apply border-gray-200;  or any default border color like border-gray-300 */
-/* } */
+  * {
+    @apply border-border;
+  }
 
-
-  /* body {
+  body {
     @apply bg-background text-foreground;
-  } */
+  }
 }

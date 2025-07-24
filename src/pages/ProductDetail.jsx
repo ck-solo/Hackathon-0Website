@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 import { useParams, Link, useNavigate } from "react-router-dom"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Separator } from "@/components/ui/separator"
-import { getProductById, getProductsByCategory } from "@/data/products"
-import ProductGrid from "@/components/ProductGrid"
+import { Button } from "../components/ui/button"
+import { Badge } from "../components/ui/badge"
+import { Separator } from "../components/ui/separator"
+import { getProductById, getProductsByCategory } from "../data/products"
+import ProductGrid from "../components/ProductGrid"
 import {
   Star,
   Heart,
